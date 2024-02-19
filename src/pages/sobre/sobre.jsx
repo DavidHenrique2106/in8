@@ -4,10 +4,10 @@ function Sobre() {
     return (
         <section className={style.footer} >
             <main className={style.footer_body} >
-                <p>Kaique Mendes da Silva</p>
-                <p>kaiquemendesilva82@gmail.com</p>
-                <p>(31)9 99332 - 8321</p>
-                <p>Faculdade Estacio de sá. Padro-BH</p>
+                <p>David Henrique B. de Lima</p>
+                <p>dh210605@gmail.com</p>
+                <p>(81)98318-1645</p>
+                <p>Universidade Católica de Pernambuco & Descomplica faculdade</p>
             </main>
         </section>
     )

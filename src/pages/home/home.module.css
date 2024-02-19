@@ -79,41 +79,52 @@
     display: none;
   }
   
-  @media screen and (max-width: 1200px) {
-    .header {
-      background-position: center;
+/* Estilos para telas pequenas e médias (375px - 767px) */
+/* Estilos para telas pequenas (375px - 767px) */
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .body_header_button_mobile {
+      width: 25px;
+      height: 25px;
+    }
+  
+    .body_header_titulo p {
+      font-size: 1em;
+    }
+  
+    .body_header_titulo label {
+      font-size: 0.6em;
     }
   }
   
-  @media screen and (max-width: 450px) {
-    /* FALTA AJUSTAR O MENU MOBILE */
+  /* Estilos para telas médias (768px - 1023px) */
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
     .body_header_button_mobile {
-      width: 450px;
-      display: flex;
-      margin-right: 200px;
-      background-color: rgba(240, 248, 255, 0);
-      border: none;
-      background-image: url("/public/icons/hamburguer.svg");
-      background-repeat: no-repeat;
-      cursor: pointer;
+      width: 30px;
+      height: 30px;
     }
-    .body_header_nav_list {
-      display: none;
-    }
-    .header {
-      background-image: url("/public/imgs/index-image-mobile.jpg");
-      background-size: 100%;
-      background-position: center;
-    }
-    .body_header {
-      margin-top: 10px;
-    }
+  
     .body_header_titulo p {
-      margin-top: 0px;
-      text-align: center;
-      font-size: 100px;
+      font-size: 1.2em;
     }
+  
     .body_header_titulo label {
-      text-align: center;
+      font-size: 0.7em;
     }
   }
+  
+  /* Estilos para telas grandes (1024px e acima) */
+  @media screen and (min-width: 1024px) {
+    .body_header_button_mobile {
+      width: 35px;
+      height: 35px;
+    }
+  
+    .body_header_titulo p {
+      font-size: 1.5em;
+    }
+  
+    .body_header_titulo label {
+      font-size: 0.8em;
+    }
+  }
+  

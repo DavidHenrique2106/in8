@@ -68,20 +68,59 @@
     box-shadow: 0 0 0 0;
     outline: 0;
   }
-  
-  @media screen and (max-width: 700px) {
-      .cadastro_body_titulo{
-        margin-top: 20px;
-        font-size: 38px;
-        margin-bottom: 50px;
-      }
-      .cadastro_body{
-        width: 75%;
-      }
-      .cadastro_body_form_input label {
-        font-size: 10px;
-      }
-      .cadastro_body_form_input input {
-        font-size: 10px;
-      }
+/* Estilos para telas pequenas (375px - 767px) */
+@media screen and (min-width: 375px) and (max-width: 767px) {
+  .cadastro_body_titulo {
+    font-size: 1.2em;
+    margin-bottom: 2%;
   }
+
+  .cadastro_body_form_input label,
+  .cadastro_body_form_input input {
+    font-size: 0.8em;
+  }
+
+  .cadastro_body_form_button {
+    font-size: 1em;
+    width: 100%;
+  }
+}
+
+/* Estilos para telas médias (768px - 1023px) */
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .cadastro_body_titulo {
+    font-size: 1.3em;
+    margin-bottom: 3%;
+  }
+
+  .cadastro_body_form_input label,
+  .cadastro_body_form_input input {
+    font-size: 0.9em;
+  }
+
+  .cadastro_body_form_button {
+    font-size: 1.1em;
+  }
+}
+
+/* Estilos para telas grandes (1024px e acima) */
+@media screen and (min-width: 1024px) {
+  .cadastro_body_titulo {
+    font-size: 1.5em;
+    margin-bottom: 4%;
+  }
+
+  .cadastro_body {
+    width: 90%;
+  }
+
+  .cadastro_body_form_input label,
+  .cadastro_body_form_input input {
+    font-size: 1em;
+  }
+
+  .cadastro_body_form_button {
+    font-size: 1.2em;
+    width: 100%;
+  }
+}
