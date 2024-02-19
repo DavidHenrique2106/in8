@@ -10,9 +10,11 @@ function App() {
         <header>
           <Header/>
         </header>
-        <body>
-          <Cadastro/>
-        </body>
+        <main>
+        <Cadastro/>
+
+      </main>
+      
         <footer>
           <Sobre />
         </footer>
