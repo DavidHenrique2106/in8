@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/in8/static/css/main.88ae37eb.css",
-    "main.js": "/in8/static/js/main.08ed9283.js",
+    "main.css": "/in8/static/css/main.cfd0772d.css",
+    "main.js": "/in8/static/js/main.01b9b116.js",
     "static/media/rodape-mobile.jpg": "/in8/static/media/rodape-mobile.3d20ef33b1df54453060.jpg",
     "static/media/index-image-mobile.jpg": "/in8/static/media/index-image-mobile.ea34b2f0278626ff546f.jpg",
     "static/media/index-image.jpg": "/in8/static/media/index-image.82febeeb468b6c07a475.jpg",
@@ -9,11 +9,11 @@
     "static/media/logo-in8-dev.svg": "/in8/static/media/logo-in8-dev.3370035bd7a9fab63d4282dca1e80ba6.svg",
     "index.html": "/in8/index.html",
     "static/media/hamburguer.svg": "/in8/static/media/hamburguer.1454032e6236d4047590.svg",
-    "main.88ae37eb.css.map": "/in8/static/css/main.88ae37eb.css.map",
-    "main.08ed9283.js.map": "/in8/static/js/main.08ed9283.js.map"
+    "main.cfd0772d.css.map": "/in8/static/css/main.cfd0772d.css.map",
+    "main.01b9b116.js.map": "/in8/static/js/main.01b9b116.js.map"
   },
   "entrypoints": [
-    "static/css/main.88ae37eb.css",
-    "static/js/main.08ed9283.js"
+    "static/css/main.cfd0772d.css",
+    "static/js/main.01b9b116.js"
   ]
 }
