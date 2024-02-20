@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/in8/static/css/main.c5ea54af.css",
-    "main.js": "/in8/static/js/main.948ecaa9.js",
+    "main.js": "/in8/static/js/main.edebba6d.js",
     "static/media/index-image.jpg": "/in8/static/media/index-image.82febeeb468b6c07a475.jpg",
     "static/media/rodape-desktop.jpg": "/in8/static/media/rodape-desktop.5ec8960bda5b17b21cfe.jpg",
     "static/media/logo-in8-dev.svg": "/in8/static/media/logo-in8-dev.3370035bd7a9fab63d4282dca1e80ba6.svg",
     "index.html": "/in8/index.html",
     "main.c5ea54af.css.map": "/in8/static/css/main.c5ea54af.css.map",
-    "main.948ecaa9.js.map": "/in8/static/js/main.948ecaa9.js.map"
+    "main.edebba6d.js.map": "/in8/static/js/main.edebba6d.js.map"
   },
   "entrypoints": [
     "static/css/main.c5ea54af.css",
-    "static/js/main.948ecaa9.js"
+    "static/js/main.edebba6d.js"
   ]
 }
