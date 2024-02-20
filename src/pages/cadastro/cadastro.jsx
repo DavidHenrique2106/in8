@@ -1,8 +1,5 @@
 import { useContext, useEffect, useState } from "react";
 import style from "./cadastro.module.css";
-import { useForm } from "react-hook-form";
-import { yupResolver } from "@hookform/resolvers/yup";
-import * as yup from "yup";
 import Lista from "../lista/lista";
 import { initializeApp } from "firebase/app";
 import { addDoc, collection, getDocs, getFirestore } from "firebase/firestore";
@@ -25,19 +22,27 @@ function Cadastro() {
   const userCollection = collection(db, "users");
 
   async function createUser() {
-   const user = await addDoc(userCollection, {
-    name,
-    email,
-    telefone,
-    nascimento
-   })
+    await addDoc(userCollection, {
+      name,
+      email,
+      telefone,
+      nascimento
+    });
+
+    setName("");
+    setEmail("");
+    setTelefone("");
+    setNascimento("");
+
+    getUsers();
+  }
+
+  async function getUsers() {
+    const data = await getDocs(userCollection);
+    setUsers(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
   }
 
   useEffect(() => {
-    const getUsers = async () => {
-      const data = await getDocs(userCollection);
-      setUsers(data.docs.map((doc) => ({ ...doc.data(), id: doc.id })));
-    };
     getUsers();
   }, []);
 
