@@ -21,7 +21,6 @@
     width: 100%;
   }
   .body_header_nav_list {
-    /* Helvetica 25 UltraLight Regular */
     font-family: Helvetica;
     width: 100%;
     display: flex;
@@ -79,8 +78,7 @@
     display: none;
   }
   
-/* Estilos para telas pequenas e médias (375px - 767px) */
-/* Estilos para telas pequenas (375px - 767px) */
+
 @media screen and (min-width: 375px) and (max-width: 767px) {
     .body_header_button_mobile {
       width: 25px;
@@ -96,7 +94,7 @@
     }
   }
   
-  /* Estilos para telas médias (768px - 1023px) */
+
   @media screen and (min-width: 768px) and (max-width: 1023px) {
     .body_header_button_mobile {
       width: 30px;
@@ -112,7 +110,7 @@
     }
   }
   
-  /* Estilos para telas grandes (1024px e acima) */
+
   @media screen and (min-width: 1024px) {
     .body_header_button_mobile {
       width: 35px;

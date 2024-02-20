@@ -44,7 +44,7 @@
       padding-top: 20px;
       padding-bottom: 20px;
   }
-/* Estilos para telas pequenas (375px - 767px) */
+
 @media screen and (min-width: 375px) and (max-width: 767px) {
     .lista_titulo {
       font-size: 1em;
@@ -56,7 +56,7 @@
     }
   }
   
-  /* Estilos para telas médias (768px - 1023px) */
+
   @media screen and (min-width: 768px) and (max-width: 1023px) {
     .lista_titulo {
       font-size: 1.1em;
@@ -67,8 +67,7 @@
       font-size: 0.7em;
     }
   }
-  
-  /* Estilos para telas grandes (1024px e acima) */
+
   @media screen and (min-width: 1024px) {
     .lista_titulo {
       font-size: 1.2em;
